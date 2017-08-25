@@ -1,0 +1,152 @@
+
+.clear{
+    clear:both;
+}
+
+/* body */
+
+body{
+  background-color: #e3e3e3;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #3a3a3a;
+  margin: 0px;
+  }
+
+  /* main-content header h1 */
+ .content header h1{
+  font-size: 40px;
+  color:#fff;
+  
+  }
+/* content header h2*/
+header h2{
+  font-size: 20px;
+  font-style: italic;
+  color:#fff;
+}
+
+header a{
+  font-color:#3a3a3a;
+   
+}
+
+
+h1, h2, h3, h4, h5{
+  margin: 0px;
+}
+/* main-content*/
+
+.content {
+  background-color: #ffffff;
+  margin-top: 0px;
+  margin-bottom:0px;
+  margin: 0 auto;
+}
+
+.content header {
+  font-color: #ffffff;
+  padding: 20px;
+  background-color: #89bdd3;
+  
+}
+
+/* header nav */
+ .content nav {
+  background-color: #9ad3de;
+  border-top: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
+
+  
+}
+
+.content nav a {
+  font-size: bold;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  color:black;
+}
+
+/* hover text underline */
+ .content a:hover {
+    text-decoration: underline;
+  }
+
+/*article */
+
+ .content article {
+  float: left;
+  padding: 20px;
+  width: 60%; 
+}
+
+.content article header h1{
+    color:#4c4c4c;
+
+}
+
+/*article header */
+.content article header{
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 20px;
+  
+}
+
+.content article .main h2{
+    font-style:oblique;
+    font-size: medium;
+}
+
+.content article .main p{
+    font:2em;
+    font-style:normal;
+    color: #3a3a3a;
+}
+
+
+
+ .content article footer{
+ border-top: 1px solid #3a3a3a;
+  border-bottom : 1px solid #3a3a3a;
+  text-align : center;
+}
+
+  .content article footer img{
+   
+  border: 3px solid #3a3a3a;
+   border-radius:50%;
+   padding: 5px;
+  
+   
+}
+
+/* side-bar */
+.content aside {
+  float: right;
+  padding-top: 20px;
+  width: 30%;
+  }
+/* side-bar-item*/
+ .content aside .side-item {
+  border: 1px solid #3a3a3a;
+  padding: 10px;
+  margin: 20px;
+  height: 50%;
+}
+/*side-bar link */
+.content aside .side-item  li a{
+ margin-top: 5px;
+ margin-bottom:5px;
+ padding:0px;
+ margin-right:0px;
+color:#3a3a3a;
+font: sans-serif;
+
+
+}
+
+ 
+
+
+
