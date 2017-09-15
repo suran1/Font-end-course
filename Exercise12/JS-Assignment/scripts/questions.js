@@ -13,7 +13,7 @@ y = 6;
 var str = "Hello World";
 var z = str.indexOf('h');
 //Answer:
-z = 0;
+z = -1;
 ///
 
 

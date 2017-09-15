@@ -1,0 +1,231 @@
+
+/* body */
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: #888;
+}
+
+
+/*main class */
+
+.main{
+    width: 960px;
+    background: #fff;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/*site-header class*/
+
+.site-header {
+    background: url(../images/sky.jpeg) 0 0 no-repeat;
+    height: 430px;
+    text-align: center;
+    color: #fff;
+}
+
+/* header nav */
+
+.site-header nav {
+    text-align: right;
+
+}
+/* header nav  a*/
+
+.site-header nav a{
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  padding: 10px;
+  text-decoration: none;  
+}
+/* header h1 */
+.site-header h1 {
+    margin-top: 100px;
+    font-size: 56px;
+    font-weight: normal;
+}
+/* header h1 h2 */
+.site-header h1, .site-header h2{
+    color: #fff;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    font-weight: bold;
+
+}
+
+/* article */
+
+article{
+    float: left;
+    width: 70%;
+    padding-left: 20px;
+
+}
+/* article  header */
+article header {
+    display: block;
+}
+
+
+article h1, article h2, aside h3 {
+    color: #30396D;
+}
+/*h5 */
+
+
+h5{
+    display: block;
+    font-size: 0.83em;
+    -webkit-margin-before: 1.67em;
+    -webkit-margin-after: 1.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+/*h2 */
+h2 { 
+    display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+/*quote */
+.quote{
+    width: 50%;
+    margin: 20px auto;
+    padding: 2opx;
+    font-style: italic;
+    border: 1px solid #888;
+}
+.quote div {
+    text-align: right;
+}
+div {
+    display: block;
+
+}
+
+/*aside */
+aside{
+    float: right;
+    width: 20%;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+/*aside  section*/
+aside section {
+    border-bottom: 2px solid #30396D;
+    padding-bottom: 20px;
+    color: #30396D;
+}
+a{
+    color: #30396D;
+}
+/*tags class */
+.tags a {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 0 3px 5px 0;
+    border: 1px solid #888888;
+
+}
+/*aside frame class */
+aside .frame{
+    border: 2px solid #30396D;
+    padding: 2px;
+}
+/*aside section image*/
+aside section img{
+    display: block;
+    width: 100%;
+}
+
+/*footer*/
+
+.main-footer{
+    clear: both;
+    color: #fff;
+    background: #30396D;
+    font-size: 12px;
+    overflow: hidden;
+    padding: 20px 0;
+}
+
+.main-footer a {
+    color: #fff;
+}
+
+/*footer spacer */
+
+.main-footer .spacer{
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.main-footer .news, .main-footer .events, .main-footer .socials {
+    width: 33%;
+    float: left;
+}
+
+h3{
+    display: block;
+    font-size: 1.17em;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+}
+
+.main-footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.main-footer li {
+    width: 90%;
+   padding: 4px 0;
+
+}
+ul{
+    margin: 0;
+    padding-left: 18px;
+
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent; 
+}
+
+/*footer btn class*/
+.btn{
+    display: block;
+    clor: #fff;
+    border: 1px solid #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
