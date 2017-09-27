@@ -1,28 +1,37 @@
 var DateFormatter = {
-    // getshortTime
+    //getshortTime
     getShortTime: function (date){
         var hour = date.getHours();
        var minute= date.getMinutes();
-        return hour + " :" + minute +  " " +"AM";
+        var time = date.getTime();
+        var second= date.getSeconds();
+        totalTime = hour + ":" + minute + ":" + second ;
+        if(totalTime >= "00:00:00" && totalTime <="11:59:59") {
+        var hour12 = parseInt(hour);
+        var newHour = 12 - hour12 ;
+        console.log(newHour.toString() + ":" + minute  + "AM");
+        }
+        else return hour + ":" + minute + ":" + "PM";
     },
 
-    //getlongTime
+//     //getlongTime
 
-    getLongTime : function(date){
-    var hour= date.getHours();
-    var minute= date.getMinutes();
-    var second= date.getSeconds();
+//     getLongTime : function(date){
+//     var hour= date.getHours();
+//     var minute= date.getMinutes();
+//     var second= date.getSeconds();
 
-    return hour + ":" + minute + ":" + second + " " + "AM";
-},
+//     return hour + ":" + minute + ":" + second + " " + "AM";
+// },
 
 //getshortDate
 
 getShortDate: function (date){
     var month= date.getMonth() + 1;
-    var day= date.getDay();
+    var day= date.getDate();
     var year= date.getYear ();
     return month + '/' + day + '/' + year;
+    // return date.getDate();
 },
 
 //getShortDate With Time
@@ -51,11 +60,11 @@ getLongDate: function (date){
 
     
     };   
-    var getShortTime = DateFormatter.getShortTime(new Date());
-    console.log(getShortTime);
+    // var getShortTime = DateFormatter.getShortTime(new Date());
+    // console.log(getShortTime);
 
-    var getLongTime = DateFormatter.getLongTime(new Date());
-    console.log(getLongTime);
+    // var getLongTime = DateFormatter.getLongTime(new Date());
+    // console.log(getLongTime);
   var getShortDate = DateFormatter.getShortDate(new Date());
   console.log(getShortDate);
 
