@@ -17,7 +17,7 @@ $(document).ready(function () {
 
            console.log(sum);
 
-         $('#txtThirdNumber').val(sum);
+         //$('#txtThirdNumber').val(sum);
         /*
             If our sum is greater than 10. Add a blue class to the input.
             If our sum is less than 10, add a red class
